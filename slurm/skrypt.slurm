@@ -13,7 +13,7 @@ BASE_DIR=$(pwd)
 singularity exec --nv \
 --bind $BASE_DIR:/scratch --pwd /scratch \
 ~/akalinow.simg  python3 ~/skrypt/process_alphafold.py \
- --name_file_txt plik.list --msas no \
+ --name_file_txt plik.list --msas no --pkl no \
  --id_folder $1 \
  &> wyn.txt
 
