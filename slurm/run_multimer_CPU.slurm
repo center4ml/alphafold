@@ -39,5 +39,6 @@ singularity run --nv \
  --output_dir=$BASE_DIR/outputs \
  --model_preset=multimer \
  --db_preset=full_dbs \
+ --use_precomputed_msas=true \
  --max_template_date=2022-12-31
-
+ 
